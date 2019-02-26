@@ -45,7 +45,7 @@ Contributor(s):
     <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
     <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/mapita</property>
     <property name="hibernate.connection.username">naomi</property>
-    <property name="hibernate.connection.password">bieberswag94</property>
+    <property name="hibernate.connection.password">bieberswag98</property>
     <property name="hibernate.show_sql">true</property>
     <property name="hibernate.current_session_context_class">thread</property>
     <mapping resource="is/lab/mapita/modelo/Marcador.hbm.xml"/>

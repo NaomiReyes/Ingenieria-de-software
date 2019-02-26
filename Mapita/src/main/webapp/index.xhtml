@@ -12,13 +12,26 @@
         </h:head>
         <h:body>
             <h:form>
+                <FONT FACE="Impact" SIZE="4" COLOR="red"> Registrate! </FONT>
+                <p></p>
                <p:inputText id="nombre" value="#{agregaUsuario.nombre}" placeholder="Nombre"/><br/>
                <p:inputText id="correo" value="#{agregaUsuario.correo}" placeholder="Correo"/><br/>
                <p:password id="contrasenia" value="#{agregaUsuario.contrasenia}" placeholder="Contrasenia"/><br/>
                <p:calendar id="fechanacimiento" value="#{agregaUsuario.fechanacimiento}" placeholder="Fechanacimiento"/><br/>
-               
+               <p></p>
                <p:commandButton action ="#{agregaUsuario.agregaUsuario()}" value="Registrarse" />
-               
+               <p></p>
+
+            </h:form>
+            <h:form>
+                <FONT FACE="Impact" SIZE="4" COLOR="red"> Registra un marcador! </FONT>
+            <p:inputNumber id="usuario" value="#{agregaMarcador.usuario}" placeholder="Id Usuario"/><br/>
+               <p:inputText id="descripcion" value="#{agregaMarcador.descripcion}" placeholder="Descripcion"/><br/>
+               <p:inputNumber id="longitud" value="#{agregaMarcador.longitud}" placeholder="Longitud"/><br/>
+               <p:inputNumber id="latitud" value="#{agregaMarcador.latitud}" placeholder="Latitud"/><br/>
+               <p></p>
+               <p:commandButton action ="#{agregaUsuario.agregaMarcador()}" value="Registrar Marcador" />
+               <p></p>
 
             </h:form>
         </h:body>
